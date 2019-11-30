@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a silly summary of Sassy Sally's super sophisticated student success">
+    <title>Sassy Sally's Resume</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+
+<body>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <div id="reactContainer">
+    <script type="text/babel">
+            ReactDOM.render(
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#description">Description</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#history">Employment History</a></li>
+                        <li><a href="#skills">Job Skills</a></li>
+                        <li><a href="#contact">Contact Info</a></li>
+                        <li><a href="#photo">Photo Of Me</a></li>
+                    </ul>
+                </nav>
+                <header>
+                    <h1>Sassy Sally's Silly Student Summary</h1>
+                </header>
+                <main>
+                    <section>
+                        <header>
+                            <h2 id="description">Description</h2>
+                        </header>
+                        <p>Welcome to my student resume. Below you will find all sorts of information about how wonderful and silly
+                    I am. Please hire me! Please.</p>
+                    </section>
+                    <br />
+                    <section>
+                        <header>
+                            <h2 id="education">Education</h2>
+                        </header>
+                        <ol>
+                            <li>Clown College</li>
+                            <li>GED</li>
+                            <li>Mother of Mary K-8</li>
+                        </ol>
+                    </section>
+                    <br />
+                    <section>
+                        <header>
+                            <h2 id="history">My Employment History</h2>
+                        </header>
+                        <h3>McDonalds</h3>
+                        <ul>
+                            <li>Job Title: Clown</li>
+                            <li>Dates: July 1998-present</li>
+                        </ul>
+                        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                ut aliquip ex ea commodo consequat.</p>
+                        <h3>Chuck E Cheese</h3>
+                        <ul>
+                            <li>Job Title: Waitress</li>
+                            <li>Dates: May 1998-July 1998</li>
+                        </ul>
+                        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                ut aliquip ex ea commodo consequat.</p>
+                    </section>
+                    <br />
+                    <section>
+                        <header>
+                            <h2 id="skills">Job Skills</h2>
+                        </header>
+                        <ol>
+                            <li>Being Sassy</li>
+                            <li>Being Silly</li>
+                            <li>Being Super</li>
+                            <li>Being Successful</li>
+                        </ol>
+                    </section>
+                    <br />
+                    <address>
+                        <header>
+                            <h2 id="contact">Sally's Contact Info</h2>
+                        </header>
+                        <ul>
+                            <li>Name: Sassy Sally</li>
+                            <li>Email Address:
+                                <a href="mailto:sassysally@superemail.com?subject=Hi Sally&body=Let's get lunch!">sassysally@superemail.com</a>
+                            </li>
+                            <li>Phone Number:<a href="tel:555-492-6710">555-492-6710</a></li>
+                        </ul>
+                    </address>
+                    <section>
+                        <header>
+                            <h3 id="photo">By the way, here's me being super silly! Don't forget to hire me!</h3>
+                        </header>
+                        <p><img src="https://images.halloweencostumes.com/products/2469/1-2/sexy-sally-costume.jpg"
+                            alt="Sassy Sally Costume" /></p>
+                    </section>
+                </main>
+                <footer>
+                    © 2019 SASSY SALLY ALL RIGHTS RESERVED
+                </footer>
+            </div>,
+            document.querySelector('#reactContainer'));
+        </script>
+        </div>
+</body>
+</html>
